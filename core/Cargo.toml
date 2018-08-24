@@ -1,0 +1,16 @@
+[package]
+name = "heima"
+version = "0.1.1-dev"
+authors = ["Robert Schütte <schuetterobert@gmail.com>"]
+
+[dependencies]
+rocket = "0.3"
+rocket_codegen = "0.3"
+rocket_contrib = "0.3"
+yahoo-weather = { git = "https://github.com/Roba1993/yahoo-weather-rs" }
+rzw = { git = "https://github.com/Roba1993/rzw" }
+quick-error = "1.1"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+toml = "0.4"

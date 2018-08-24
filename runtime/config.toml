@@ -1,0 +1,3 @@
+env = "dev"
+port = 8888
+location = "Ransbach-Baumbach"

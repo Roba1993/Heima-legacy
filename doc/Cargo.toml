@@ -1,0 +1,12 @@
+[package]
+name = "ifthen"
+version = "0.1.0"
+authors = ["Robert Schütte <schuetterobert@gmail.com>"]
+
+[dependencies]
+rocket = "0.2.4"
+rocket_codegen = "0.2.4"
+rocket_contrib = "0.2.4"
+yahoo-weather = { git = "https://github.com/Roba1993/yahoo-weather-rs" }
+quick-error = "1.1"
+serde_json = "0.9"

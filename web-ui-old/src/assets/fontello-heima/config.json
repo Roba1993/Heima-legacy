@@ -1,0 +1,154 @@
+{
+  "name": "heima-icons",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "1c2a34e8bd2f8a53e3b059447a8e544f",
+      "css": "sunrise",
+      "code": 59392,
+      "src": "meteocons"
+    },
+    {
+      "uid": "95fb2e5fdd1ea7e4a420b6ed330e6b08",
+      "css": "sun",
+      "code": 59393,
+      "src": "meteocons"
+    },
+    {
+      "uid": "34e68aa8fbf61f02a748043ccf448a3b",
+      "css": "moon",
+      "code": 59394,
+      "src": "meteocons"
+    },
+    {
+      "uid": "a555120b3743d482efcc3058733d3fd9",
+      "css": "mist",
+      "code": 59395,
+      "src": "meteocons"
+    },
+    {
+      "uid": "2efb5347832a09ae69de043f897ec4b9",
+      "css": "wind",
+      "code": 59396,
+      "src": "meteocons"
+    },
+    {
+      "uid": "9cd3e294ca3ad3dda66bc5a804021c46",
+      "css": "cloud-sun",
+      "code": 59397,
+      "src": "meteocons"
+    },
+    {
+      "uid": "2440f961b415837c6bf30424a6711708",
+      "css": "cloud-moon",
+      "code": 59398,
+      "src": "meteocons"
+    },
+    {
+      "uid": "957fd72e52a0e9eb585a0361114c4c83",
+      "css": "fog-sun",
+      "code": 59399,
+      "src": "meteocons"
+    },
+    {
+      "uid": "dbf0f9c3d15e5e8046bb5f5fb5898b49",
+      "css": "fog-moon",
+      "code": 59400,
+      "src": "meteocons"
+    },
+    {
+      "uid": "aba39b610b88a73d81f0fa683649b92d",
+      "css": "fog-cloud",
+      "code": 59401,
+      "src": "meteocons"
+    },
+    {
+      "uid": "2ca5a006e414e0827f7fc5b187689c04",
+      "css": "fog",
+      "code": 59402,
+      "src": "meteocons"
+    },
+    {
+      "uid": "b215adc51ca2aa37e7bbe244d1fa52cc",
+      "css": "clouds",
+      "code": 59403,
+      "src": "meteocons"
+    },
+    {
+      "uid": "b500010a53f4807828ac252725dc6fd1",
+      "css": "hail",
+      "code": 59404,
+      "src": "meteocons"
+    },
+    {
+      "uid": "0f6059e468716a93329821bcbf11220d",
+      "css": "snow-heavy",
+      "code": 59405,
+      "src": "meteocons"
+    },
+    {
+      "uid": "127ed05f3c024a9c73487f18cf3d530d",
+      "css": "snow",
+      "code": 59406,
+      "src": "meteocons"
+    },
+    {
+      "uid": "86351391d6cbc7a85730414294139661",
+      "css": "windy-rain",
+      "code": 59407,
+      "src": "meteocons"
+    },
+    {
+      "uid": "5fad7d41511701337ddd5ad9896edc4b",
+      "css": "windy",
+      "code": 59408,
+      "src": "meteocons"
+    },
+    {
+      "uid": "d577552bb94bdeb53e6517873481aeea",
+      "css": "rain",
+      "code": 59409,
+      "src": "meteocons"
+    },
+    {
+      "uid": "f59875f40cbc5ad1b04775cd96feabf1",
+      "css": "drizzle",
+      "code": 59410,
+      "src": "meteocons"
+    },
+    {
+      "uid": "f4c428e42b86673278e98e6f2e0a8cd2",
+      "css": "clouds-flash",
+      "code": 59411,
+      "src": "meteocons"
+    },
+    {
+      "uid": "fbede3c5584282a0e9b131926dff71da",
+      "css": "cube",
+      "code": 59412,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "af95ef0ddda80a78828c62d386506433",
+      "css": "cubes",
+      "code": 59413,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "720f98e7580b7987c8dc542513d1d440",
+      "css": "up",
+      "code": 59414,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f06941dfcb90dc24b987d810898c4310",
+      "css": "down",
+      "code": 59415,
+      "src": "fontawesome"
+    }
+  ]
+}

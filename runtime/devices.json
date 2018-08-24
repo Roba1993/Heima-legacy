@@ -1,0 +1,107 @@
+[
+  {
+    "condition": "Cloudy",
+    "condition_code": 26,
+    "forecast": [
+      {
+        "condition": "Cloudy",
+        "condition_code": 26,
+        "date": "2017-07-16",
+        "temp_high": "68",
+        "temp_low": "56"
+      },
+      {
+        "condition": "Mostly Cloudy",
+        "condition_code": 28,
+        "date": "2017-07-17",
+        "temp_high": "73",
+        "temp_low": "58"
+      },
+      {
+        "condition": "Partly Cloudy",
+        "condition_code": 30,
+        "date": "2017-07-18",
+        "temp_high": "79",
+        "temp_low": "59"
+      },
+      {
+        "condition": "Scattered Thunderstorms",
+        "condition_code": 47,
+        "date": "2017-07-19",
+        "temp_high": "85",
+        "temp_low": "64"
+      },
+      {
+        "condition": "Scattered Thunderstorms",
+        "condition_code": 47,
+        "date": "2017-07-20",
+        "temp_high": "75",
+        "temp_low": "65"
+      },
+      {
+        "condition": "Partly Cloudy",
+        "condition_code": 30,
+        "date": "2017-07-21",
+        "temp_high": "74",
+        "temp_low": "60"
+      },
+      {
+        "condition": "Mostly Cloudy",
+        "condition_code": 28,
+        "date": "2017-07-22",
+        "temp_high": "80",
+        "temp_low": "61"
+      },
+      {
+        "condition": "Partly Cloudy",
+        "condition_code": 30,
+        "date": "2017-07-23",
+        "temp_high": "80",
+        "temp_low": "62"
+      },
+      {
+        "condition": "Rain",
+        "condition_code": 12,
+        "date": "2017-07-24",
+        "temp_high": "76",
+        "temp_low": "60"
+      },
+      {
+        "condition": "Mostly Cloudy",
+        "condition_code": 28,
+        "date": "2017-07-25",
+        "temp_high": "71",
+        "temp_low": "58"
+      }
+    ],
+    "id": "yahoo_weather-Ransbach-Baumbach",
+    "provider": "yahoo_weather",
+    "provider_id": "Ransbach-Baumbach",
+    "sunrise": "05:36:00",
+    "sunset": "21:34:00",
+    "temp": "69",
+    "temp_unit": "F",
+    "typ": "weather"
+  },
+  {
+    "id": "zwave-2",
+    "provider": "zwave",
+    "provider_id": "2",
+    "status": "off",
+    "typ": "switch"
+  },
+  {
+    "id": "zwave-3",
+    "provider": "zwave",
+    "provider_id": "3",
+    "status": "off",
+    "typ": "switch"
+  },
+  {
+    "id": "zwave-4",
+    "provider": "zwave",
+    "provider_id": "4",
+    "status": "on",
+    "typ": "switch"
+  }
+]

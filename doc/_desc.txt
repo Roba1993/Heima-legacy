@@ -1,0 +1,30 @@
+Device:
+- Id (Provider/Id)
+- Name
+- Type
+- Icon
+
+
+Command:
+- Id
+- Command
+- Value
+
+
+Types:
+- Switch
+- Dimmable
+- Switch_Meter
+- Player
+
+
+asd
+
+
+
+
+
+
+- ZWave started
+- Zwave 3 devices found
+- ZWave updated device list

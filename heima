@@ -1,0 +1,80 @@
+#!/bin/bash 
+
+
+init() {
+    echo "error: init is not implemented"
+}
+
+build() {
+    # choose what to build new, or all
+    case "$1" in
+                "core") buildcore
+                    ;;
+                "ui") buildui
+                    ;;
+                *) buildcore
+                    buildui
+                    ;;
+    esac
+}
+
+buildcore() {
+    # compile the core
+    rm runtime/heima
+    cd core
+    cargo build --release
+    cd ..
+    cp core/target/release/heima runtime/heima
+}
+
+buildui() {
+    # compile the ui
+    rm -rf runtime/www
+    cd ui
+    npm run web-build
+    cd ..
+    cp -R ui/web/ runtime/www
+}
+
+run() {
+    # run
+    cd runtime
+    ./heima
+    cd ..
+}
+
+test() {
+	# compile the core with dev
+    rm runtime/heima
+    cd core
+    cargo build
+    cd ..
+    cp core/target/debug/heima runtime/heima
+
+    #run
+    run
+}
+
+help() {
+    echo "Heima shell script helper 0.1.1"
+    echo "run one of the following commands:"
+    echo "init            initalize the installs"
+    echo "build           build the complete project"
+    echo "build core      only build the core"
+    echo "build ui        only build the ui"
+    echo "run             run the build"
+    echo "test			  dev build and run the build"
+}
+
+case "$1" in
+            "init") init
+                ;;
+            "build") build "$2"
+                ;;
+            "run") run
+                ;;
+            "test") test
+				;;
+            *) help
+                ;;
+esac
